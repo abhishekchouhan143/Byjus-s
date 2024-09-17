@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.progress-bar {
+  height: 3px;
+  background-color: rgb(231, 22, 22);
+  margin: 2px 0;
+  animation-name: load;
+  animation-duration: 3s;
+}
+@keyframes load {
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: 50%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+nav {
+  display: flex;
+  height: 55px;
+  align-items: center;
+
+  background-color: rgb(101, 12, 119);
+}
+nav ul {
+  display: flex;
+}
+nav ul img {
+  margin-left: 20px;
+}
+nav ul li {
+  list-style: none;
+  align-items: center;
+  margin-top: 6px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(243, 150, 70);
+  margin-left: 45px;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.main-2 {
+  width: 500px;
+  margin: auto;
+  margin-top: 40px;
+}
+.main-2 h1:nth-child(2) {
+  margin-left: 40px;
+}
+.main-2 p {
+  margin-top: 10px;
+  line-height: 10px;
+  font-size: 18px;
+  font-weight: 580;
+}
+/* card star  */
+.left-card{
+  width: 60%;
+}
+.left-card img {
+  width: 250px;
+  margin: 30px;
+}
+.left-card img:nth-child(2) {
+  width: 165px;
+  margin-bottom: 170px;
+  margin-left: -5px;
+}
+.left-card p {
+  position: relative;
+  width: 217px;
+  margin: -167px;
+  margin-left: 305px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+}
+.left-card h2 {
+  margin-left: 332px;
+  margin-top: 189px;
+  color: #7e4545;
+}
+.right-card{
+  width: 50%;
+}
+
+.right-card{
+  width: 40%;
+}
+.right-card img{
+ width: 300px;
+  margin-top: 30px;
+}
