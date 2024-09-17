@@ -1,0 +1,79 @@
+.btn {
+  margin-left: 25px;
+  padding: 4px 10px;
+  background: rgb(101, 12, 119);
+  color: rgb(243, 150, 70);
+  border: 2px solid #de660f;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 580;
+  cursor: pointer;
+}
+.fixed {
+  width: 1170px;
+  margin: 50px;
+  border-radius: 7px;
+}
+.main {
+  display: flex;
+  padding: 20px;
+  background-color: rgb(219, 100, 219);
+}
+.right {
+  height: 450px;
+  width: 30vw;
+  margin: 50px 30px;
+  padding: 57px;
+  line-height: 50px;
+  border-radius: 6px;
+  background-color: rgb(255, 255, 255);
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4px;
+  align-items: center;
+  justify-content: center;
+  margin-top: -45px;
+  line-height: 30px;
+}
+.text h1 {
+  font-size: 29px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.text h3 {
+  font-weight: 450;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.form {
+  margin-left: 20px;
+  height: 25px;
+  width: 250px;
+}
+.button {
+  margin-left: 520px;
+  margin-top: 1px;
+  padding: 12px;
+  font-size: 17px;
+  font-weight: 550;
+  border-radius: 6px;
+  color: white;
+  background-image: linear-gradient(to right,#ff9234,#fc6274 100%);
+  cursor: pointer;
+}
+.margin {
+  margin: 0 23px;
+}
+
+.card {
+  height: 300px;
+}
+.color {
+  background-color: rgb(239, 235, 235);
+  height: 300px;
+  box-shadow: rgba(0, 0, 0, 0.5) 1.9px 1.9px 2.4px;
+}
+.display-flex {
+  display: flex;
+}
